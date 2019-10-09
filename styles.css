@@ -115,15 +115,29 @@ p {
   padding-right: 1em;
 }
 
+.more-info {
+  background: black;
+  border: solid white;
+  margin: .5em;
+}
 .more-info p {
   padding: 1em;
+  color: lightgreen;
 }
 
 .more-info p:first-child {
   font-size: 18px;
-  color: grey;
+  color: lightgrey;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.more-info a {
+  color: orange;
+}
+
+.more-info h1 {
+  color: white;
 }
 
 .connect-box {
