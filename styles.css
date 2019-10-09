@@ -95,19 +95,19 @@ p {
 }
 
 .when-where-sections {
+  padding-top: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 75%;
 }
 
 .when-where-sections section {
   display: block;
-  width: 90%;
-  max-width: 500px;
-  background: #75828d;
+  width: 100%;
+  background: black;
   padding: 1em;
   margin-bottom: 1em;
+  border: solid white;
 }
 
 .when-where-sections section img {
