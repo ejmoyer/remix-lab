@@ -145,8 +145,6 @@ p {
 
 .connect-icons li a img {
   padding: 1em;
-  width: 1em;
-  height: 1em;
 }
 
 .sponsors-box h1 {
@@ -226,6 +224,10 @@ ul {
 
   .join-sponsor:last-of-type {
     display: block;
+  }
+
+  .connect-icons {
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 500px) {
