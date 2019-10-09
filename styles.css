@@ -173,24 +173,29 @@ p {
 
 .sponsors-box h1 {
   font-size: 1.5em;
+  color: lightgreen;
   padding: 1em 0 0 1em;
   text-transform: uppercase;
 }
 
 .sponsors-box h2 {
-  color: gray;
+  color: lightgrey;
   font-size: 1em;
   padding: 1em 0 0 2em;
 }
 
 .sponsors-box h3 {
+  color: lightgreen;
   text-transform: uppercase;
   font-size: 1em;
 }
 
 .sponsors-box ul li {
+  border: solid white;
+  background: lightgrey;
+  margin: 2em;
   text-align: center;
-  padding: 1em 0;
+  padding: 1em;
 }
 
 .sponsors-box img {
@@ -244,6 +249,10 @@ p {
 
 ul {
   list-style-type: none;
+}
+
+main{
+  background: black;
 }
 
 @media screen and (max-width: 499px) {
