@@ -92,6 +92,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 75%;
 }
 
 .when-where-sections section {
@@ -204,7 +205,7 @@ p {
   display: block;
   background-color: #24648c;
   padding: 1.5em;
-  margin: 0 auto;
+  margin: 1em auto 1em;
   width: 60%;
   text-align: center;
 }
@@ -233,12 +234,15 @@ ul {
   }
 
   .when-where-sections {
-    max-width: 75%;
     margin: 0 auto;
   }
 
   .join-sponsor:first-of-type {
     display: block;
+    width: 30%;
+    position: relative;
+    left: 20em;
+    top: -5em;
   }
 
   .join-sponsor:last-of-type {
@@ -250,6 +254,7 @@ ul {
   .when-where-sections {
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .when-where-sections section {
