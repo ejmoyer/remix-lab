@@ -97,6 +97,7 @@ p {
 .when-where-sections section {
   display: block;
   width: 90%;
+  max-width: 500px;
   background: #75828d;
   padding: 1em;
   margin-bottom: 1em;
@@ -216,10 +217,12 @@ img {
 ul {
   list-style-type: none;
 }
+
 @media screen and (max-width: 499px) {
   .join-sponsor:first-of-type {
     display: none;
   }
+
   .join-sponsor:last-of-type {
     display: block;
   }
@@ -240,5 +243,16 @@ ul {
 
   .join-sponsor:last-of-type {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .when-where-sections {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .when-where-sections section {
+    margin-right: 1em;
   }
 }
