@@ -16,6 +16,7 @@ h3,
 p {
   padding: 1em;
 }
+
 /** Body **/
 .header {
   margin-bottom: 1em;
@@ -35,7 +36,7 @@ p {
   margin-top: 15px;
 }
 
-.header-menu > li {
+.header-menu>li {
   display: inline;
   margin-right: 50px;
 }
@@ -46,7 +47,6 @@ p {
   border-radius: 5px;
   padding-top: 60px;
   background-color: grey;
-
   position: absolute;
   top: 0px;
   right: 0px;
@@ -63,7 +63,8 @@ p {
   padding: 0 40px 10px 20px;
   margin: 10px;
 }
-.dropdown > span {
+
+.dropdown>span {
   z-index: 2;
   position: relative;
 }
@@ -173,7 +174,6 @@ p {
   margin-top: 2em;
   background-color: #3b3b3b;
   color: white;
-  padding: 1em;
   font-size: 12px;
 }
 
@@ -181,6 +181,7 @@ p {
   text-decoration: none;
   color: grey;
 }
+
 .footer-connect {
   display: flex;
 }
@@ -208,6 +209,11 @@ p {
   text-align: center;
 }
 
+.very-bottom {
+  background: black;
+  text-align: center;
+}
+
 img {
   max-width: 400px;
   max-height: 300px;
@@ -230,6 +236,7 @@ ul {
     flex-wrap: wrap;
   }
 }
+
 @media screen and (min-width: 500px) {
   .mid-screen {
     background-image: url('https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg');
