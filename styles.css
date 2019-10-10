@@ -112,8 +112,9 @@ p {
 }
 
 .more-info {
-  margin: .5em;
+  margin: 1em;
 }
+
 .more-info p {
   padding: 1em;
   color: black;
@@ -135,7 +136,7 @@ p {
 }
 
 .connect-box {
-  background: lightgrey;
+  background: linear-gradient(to bottom left, rgba(0, 0, 0, .10) 50%, transparent 50%);
   font-size: 1em;
   color: black;
   padding: 1em;
@@ -145,12 +146,26 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .connect-box h1 {
   font-size: 1.5em;
   text-transform: uppercase;
+}
+
+.connect h1 {
+  display: block;
+  font-size: 1em;
+  margin-top: -1.5em;
+  background-color: #e39210;
+  border: solid #a96c11;
+  padding: .5em;
+}
+
+.connect-bg {
+  background: #e39210;
+  width: 45em;
+  margin: 0 auto;
 }
 
 .connect-icons {
@@ -246,7 +261,7 @@ ul {
   list-style-type: none;
 }
 
-main{
+main {
   background: white;
 }
 
@@ -288,6 +303,10 @@ main{
 
 @media screen and (max-width: 750px) {
   .connect-box {
+    width: 100%;
+  }
+
+  .connect-bg {
     width: 80%;
   }
 }
