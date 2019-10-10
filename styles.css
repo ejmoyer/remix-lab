@@ -70,7 +70,7 @@ p {
 }
 
 .mid-screen {
-  color: lightgreen;
+  color: white;
   background-color: #5e5e5e;
   padding: 2em;
 }
@@ -79,10 +79,8 @@ p {
   font-size: 3em;
   padding: 1em 0 1em 1em;
   margin: 0 0 1em 0;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
-  background: black;
-  border: solid white;
 }
 
 .mid-screen h2 {
@@ -90,8 +88,6 @@ p {
   text-align: center;
   text-transform: uppercase;
   padding: 3em;
-  background: black;
-  border: solid white;
 }
 
 .when-where-sections {
@@ -104,10 +100,9 @@ p {
 .when-where-sections section {
   display: block;
   width: 100%;
-  background: black;
+  background: grey;
   padding: 1em;
   margin-bottom: 1em;
-  border: solid white;
 }
 
 .when-where-sections section img {
@@ -116,13 +111,12 @@ p {
 }
 
 .more-info {
-  background: black;
-  border: solid white;
+  background: white;
   margin: .5em;
 }
 .more-info p {
   padding: 1em;
-  color: lightgreen;
+  color: black;
 }
 
 .more-info p:first-child {
@@ -137,14 +131,13 @@ p {
 }
 
 .more-info h1 {
-  color: white;
+  color: black;
 }
 
 .connect-box {
-  background: black;
-  border: solid white;
+  background: lightgrey;
   font-size: 1em;
-  color: lightgreen;
+  color: black;
   padding: 1em;
   text-align: center;
   width: 45em;
@@ -173,7 +166,7 @@ p {
 
 .sponsors-box h1 {
   font-size: 1.5em;
-  color: lightgreen;
+  color: black;
   padding: 1em 0 0 1em;
   text-transform: uppercase;
 }
@@ -185,14 +178,12 @@ p {
 }
 
 .sponsors-box h3 {
-  color: lightgreen;
+  color: black;
   text-transform: uppercase;
   font-size: 1em;
 }
 
 .sponsors-box ul li {
-  border: solid white;
-  background: lightgrey;
   margin: 2em;
   text-align: center;
   padding: 1em;
@@ -233,7 +224,7 @@ p {
   font-size: .75em;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: black;
   display: block;
   background-color: #24648c;
   padding: 1.5em;
@@ -252,7 +243,7 @@ ul {
 }
 
 main{
-  background: black;
+  background: white;
 }
 
 @media screen and (max-width: 499px) {
