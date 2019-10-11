@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: Georgia, Helvetica, Arial, sans-serif;
+  font-family: Georgia, sans-serif;
 }
 
 h1,
@@ -117,12 +117,12 @@ p {
 
 .more-info p {
   padding: 1em;
-  color: black;
+  color: #e39210;
 }
 
 .more-info p:first-child {
   font-size: 18px;
-  color: lightgrey;
+  color: #e39210;
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -132,7 +132,7 @@ p {
 }
 
 .more-info h1 {
-  color: black;
+  color: #e39210;
 }
 
 .connect-box {
@@ -181,13 +181,13 @@ p {
 
 .sponsors-box h1 {
   font-size: 1.5em;
-  color: black;
+  color: #e39210;
   padding: 1em 0 0 1em;
   text-transform: uppercase;
 }
 
 .sponsors-box h2 {
-  color: lightgrey;
+  color: #e39210;
   font-size: 1em;
   padding: 1em 0 0 2em;
 }
