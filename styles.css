@@ -239,7 +239,7 @@ p {
   font-size: .75em;
   font-weight: bold;
   text-transform: uppercase;
-  color: black;
+  color: white;
   display: block;
   background-color: #24648c;
   padding: 1.5em;
@@ -261,12 +261,16 @@ p {
   background: #e39210;
 }
 
+.sponsors-remix {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
 }
 
-main {
-  background: white;
+body {
+  background: #167ab0;
 }
 
 @media screen and (max-width: 499px) {
@@ -294,10 +298,6 @@ main {
 
   .join-sponsor:first-of-type {
     display: block;
-    width: 30%;
-    position: relative;
-    left: 20em;
-    top: -5em;
   }
 
   .join-sponsor:last-of-type {
