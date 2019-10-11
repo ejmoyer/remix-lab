@@ -257,6 +257,10 @@ p {
   background-color: #177ab0;
 }
 
+.sponsor-list {
+  background: #e39210;
+}
+
 ul {
   list-style-type: none;
 }
@@ -320,9 +324,5 @@ main {
 
   .when-where-sections section {
     margin-right: 1em;
-  }
-
-  .connect-box {
-    flex-direction: row;
   }
 }
